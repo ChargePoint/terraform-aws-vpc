@@ -2476,3 +2476,9 @@ variable "create_egress_only_igw" {
   type        = bool
   default     = true
 }
+
+variable "egress_gateway_network_interface_id" {
+  description = "The Network Interface ID of the egress gateway for the private networks."
+  type        = string
+  default     = ""
+}
